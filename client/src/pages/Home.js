@@ -5,9 +5,8 @@ import api from '../utils/api';
 import { useCart } from '../context/CartContext';
 
 const Home = () => {
-  const [featuredProducts, setFeaturedProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const { addToCart } = useCart();
+  const [, setFeaturedProducts] = useState([]);
+  const [, setLoading] = useState(true);
 
   const fetchFeaturedProducts = useCallback(async () => {
     try {

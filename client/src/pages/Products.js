@@ -65,12 +65,7 @@ const Products = () => {
     setShowFilters(false);
   };
 
-  const handlePageChange = (page) => {
-    const params = new URLSearchParams(searchParams);
-    params.set('page', page.toString());
-    setSearchParams(params);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+ 
 
   const categories = ['electronics', 'clothing', 'home', 'sports', 'books', 'other'];
 

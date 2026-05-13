@@ -24,7 +24,6 @@ const ProductDetail = () => {
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
   const { addToCart } = useCart();
-  const { user } = useAuth();
 
   const fetchProduct = useCallback(async () => {
     setLoading(true);
