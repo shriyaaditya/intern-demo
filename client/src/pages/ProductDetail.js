@@ -3,7 +3,6 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import api from '../utils/api';
 import { useCart } from '../context/CartContext';
-import { useAuth } from '../context/AuthContext';
 import { 
   ShoppingCartIcon, 
   StarIcon,

@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import api from '../utils/api';
-import { useCart } from '../context/CartContext';
 
 const Home = () => {
   const [, setFeaturedProducts] = useState([]);
