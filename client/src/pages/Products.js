@@ -8,8 +8,6 @@ import {
   StarIcon,
   FunnelIcon,
   XMarkIcon,
-  ChevronLeftIcon,
-  ChevronRightIcon
 } from '@heroicons/react/24/outline';
 
 const Products = () => {
